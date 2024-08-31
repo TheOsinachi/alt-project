@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA ELEMENTS</title>
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <header>
+        <h1>MEDIA ELEMENTS</h1>
+    </header>
+    <section>
+        <h2>Powerful Message About Myself</h2>
+        <p>Hello, I'm Osinachi Egbuna, a dedicated sales manager with a passion for technology and innovation. Here are some elements that showcase my journey and aspirations:</p>
+        
+        <h3>Author Picture</h3>
+        <picture>
+            <source srcset="Assets/IMG_0313.JPG" media="(max-width: 767px)">
+            <source srcset="Assets/IMG_0313.JPG" media="(max-width: 768px)">
+            <source srcset="Assets/IMG_0313.JPG" media="(max-width: 1200px)">
+            <img src="Assets/IMG_0313.JPG" alt="Picture of Osinachi Egbuna" class="responsive-image">
+        </picture>
+
+        <h3>Introduction Video</h3>
+        <video controls class="responsive-video">
+            <source src="Assets/my video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h3>Audio Element Of My Favorite Song</h3>
+        <audio controls>
+            <source src="Assets/Back For You_3-1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+</body>
+</html>
+
